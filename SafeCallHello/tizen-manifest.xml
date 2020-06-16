@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="no.safecall.hello" version="1.0.0">
+    <profile name="wearable"/>
+    <ui-application appid="no.safecall.hello" exec="safecallhello" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>safecallhello</label>
+        <icon>safecall_pos_logo_app_trans.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/telephony</privilege>
+        <privilege>http://tizen.org/privilege/call</privilege>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/location</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+</manifest>

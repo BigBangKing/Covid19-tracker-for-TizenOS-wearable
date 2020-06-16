@@ -1,0 +1,141 @@
+Executable File Path: /opt/usr/globalapps/no.safecall.hello/bin/positioningservice
+Signal: 11
+      (SIGSEGV)
+
+Register Information
+gs  = 0x00000033, fs  = 0x00000000
+es  = 0x0000007b, ds  = 0x0000007b
+edi = 0xb771a000, esi = 0x7374706d
+ebp = 0xbff0a048, esp = 0xbff0a010
+eax = 0x7374706d, ebx = 0x80082000
+ecx = 0x00000000, edx = 0x00000000
+eip = 0xb770cca5
+
+Memory information
+MemTotal:   507848 KB
+MemFree:	   146100 KB
+Buffers:	    14368 KB
+Cached:	    168764 KB
+VmPeak:	     40280 KB
+VmSize:	     39620 KB
+VmLck:	          0 KB
+VmPin:	          0 KB
+VmHWM:	      13668 KB
+VmRSS:	      13668 KB
+VmData:	     19504 KB
+VmStk:	        136 KB
+VmExe:	         20 KB
+VmLib:	      17096 KB
+VmPTE:	         44 KB
+VmSwap:	         0 KB
+
+Threads Information
+Threads: 3
+PID = 2873 TID = 2873
+2873 2874 2875 
+
+Maps Information
+        8007b000         80080000 r-xp /opt/usr/globalapps/no.safecall.hello/bin/positioningservice
+        8102a000         810aa000 rw-p [heap]
+        b5b7e000         b5b8d000 r-xp /usr/lib/libcapi-appfw-package-manager.so.0.5.5
+        b5b8f000         b5b91000 r-xp /usr/lib/liblbs-agps.so.0.1.0
+        b5b94000         b5bac000 r-xp /usr/lib/liblbs-dbus.so.0.1.0
+        b5bc0000         b5bc5000 r-xp /usr/lib/location/module/libgps.so.1.3.5
+        b65ce000         b65ff000 r-xp /usr/lib/libcynara-storage.so.0.14.22
+        b6601000         b660a000 r-xp /usr/lib/libcrypt-2.24.so
+        b6633000         b6645000 r-xp /usr/lib/libcynara-client-async.so.0.14.22
+        b6648000         b666a000 r-xp /usr/lib/libcynara-admin.so.0.14.22
+        b666e000         b6672000 r-xp /usr/lib/libuuid.so.1.3.0
+        b6674000         b6684000 r-xp /usr/lib/libprocps.so.7.1.0
+        b6699000         b6771000 r-xp /usr/lib/libsecurity-manager-commons.so.1.0.2
+        b6775000         b67be000 r-xp /usr/lib/libblkid.so.1.1.0
+        b67c4000         b67c8000 r-xp /usr/lib/libcap.so.2.24
+        b67ca000         b67dc000 r-xp /usr/lib/libsecurity-privilege-manager.so.0.0.5
+        b67df000         b6810000 r-xp /usr/lib/libsecurity-manager-client.so.3.0.0
+        b6812000         b6819000 r-xp /usr/lib/libsmack.so.1.3.1
+        b681b000         b682b000 r-xp /usr/lib/libpkgmgr-client.so.0.9.3
+        b682f000         b6843000 r-xp /usr/lib/libsensord-shared.so
+        b6845000         b68a1000 r-xp /usr/lib/libmount.so.1.1.0
+        b68a7000         b68d0000 r-xp /usr/lib/liblzma.so.5.2.2
+        b68d2000         b6946000 r-xp /usr/lib/libcynara-commons.so.0.14.22
+        b694a000         b6954000 r-xp /usr/lib/libcynara-client-commons.so.0.14.22
+        b6956000         b6962000 r-xp /usr/lib/libminizip.so.1.0.0
+        b6964000         b6967000 r-xp /usr/lib/libSLP-db-util.so.0.1.0
+        b6969000         b6989000 r-xp /usr/lib/libpkgmgr_parser.so.0.12.16
+        b698b000         b699e000 r-xp /usr/lib/libresolv-2.24.so
+        b69a3000         b69ba000 r-xp /usr/lib/libz.so.1.2.11
+        b69be000         b69cc000 r-xp /usr/lib/libbuxton2.so.1.3.7
+        b69ce000         b6b3e000 r-xp /usr/lib/libstdc++.so.6.0.22
+        b6b48000         b6be3000 r-xp /usr/lib/libsystemd.so.0.16.0
+        b6be7000         b6c09000 r-xp /usr/lib/libaskuser-notification-common.so.0.1.0
+        b6c0b000         b6c1e000 r-xp /usr/lib/libaskuser-notification.so.0.3.20
+        b6c20000         b6c22000 r-xp /usr/lib/libcynara-session.so.0.14.22
+        b6c24000         b6c30000 r-xp /usr/lib/libcapi-appfw-app-manager.so.0.6.4
+        b6c32000         b6c35000 r-xp /usr/lib/libgmodule-2.0.so.0.5200.2
+        b6c37000         b6c3d000 r-xp /usr/lib/libffi.so.6.0.2
+        b6c40000         b6c6b000 r-xp /usr/lib/libsensor-genuine.so.4.0.3
+        b6c6f000         b6ce6000 r-xp /usr/lib/libpcre.so.1.2.9
+        b6ce8000         b6cf2000 r-xp /usr/lib/libstorage.so.0.1
+        b6cf4000         b6cf7000 r-xp /usr/lib/libttrace.so.1.1
+        b6cf9000         b6e58000 r-xp /usr/lib/libxml2.so.2.9.7
+        b6e5f000         b6e63000 r-xp /usr/lib/libiniparser.so.0
+        b6e65000         b6e6d000 r-xp /usr/lib/libtzplatform-config-2.0.so.2.0.0
+        b6e74000         b6e7d000 r-xp /usr/lib/libxdgmime.so.1.1.0
+        b6e7f000         b6ed9000 r-xp /usr/lib/libm-2.24.so
+        b6edb000         b6ee2000 r-xp /usr/lib/librt-2.24.so
+        b6ee4000         b6f58000 r-xp /usr/lib/libeina.so.1.16.0
+        b6f5b000         b6f6b000 r-xp /usr/lib/libeo.so.1.16.0
+        b6f70000         b6f83000 r-xp /usr/lib/libefl.so.1.16.0
+        b6f86000         b6f9f000 r-xp /usr/lib/libgcc_s.so.1
+        b6fa1000         b70a0000 r-xp /usr/lib/libsqlite3.so.0.8.6
+        b70a5000         b70b1000 r-xp /usr/lib/libcynara-client.so.0.14.22
+        b70b4000         b70dd000 r-xp /usr/lib/libpkgmgr-info.so.0.12.16
+        b70df000         b70e2000 r-xp /usr/lib/libappsvc.so.0.1.0
+        b70e4000         b70e9000 r-xp /usr/lib/libgdbm.so.3.0.0
+        b70eb000         b70ee000 r-xp /usr/lib/libdl-2.24.so
+        b70f0000         b70f2000 r-xp /usr/lib/libtracker.so.1.0.1
+        b70f4000         b72a4000 r-xp /usr/lib/libgio-2.0.so.0.5200.2
+        b72aa000         b72b0000 r-xp /usr/lib/libvconf.so.0.3.1
+        b72b4000         b72bb000 r-xp /usr/lib/libaskuser-notification-client.so.0.3.20
+        b72bd000         b72e8000 r-xp /usr/lib/liblbs-location.so.1.4.4
+        b72ea000         b733c000 r-xp /usr/lib/libgobject-2.0.so.0.5200.2
+        b733e000         b7365000 r-xp /usr/lib/libjson-glib-1.0.so.0.200.0
+        b7367000         b7371000 r-xp /usr/lib/libcapi-base-common.so.0.4.20
+        b7374000         b738d000 r-xp /usr/lib/libpthread-2.24.so
+        b7391000         b739b000 r-xp /usr/lib/libappcore-common.so.1.10.4
+        b739d000         b74b9000 r-xp /usr/lib/libglib-2.0.so.0.5200.2
+        b74bb000         b74f4000 r-xp /usr/lib/libaul.so.0.9.4
+        b74f6000         b769c000 r-xp /usr/lib/libc-2.24.so
+        b76a3000         b76ce000 r-xp /usr/lib/libecore.so.1.16.0
+        b76e1000         b76eb000 r-xp /usr/lib/libdlog.so.0.0.0
+        b76f3000         b7718000 r-xp /usr/lib/libdata-control.so.0.3.13
+        b771b000         b7720000 r-xp /usr/lib/libcapi-system-info.so.0.2.1
+        b7722000         b772d000 r-xp /usr/lib/libcapi-system-device.so.0.1.0
+        b772f000         b7731000 r-xp /usr/lib/libcapi-privacy-privilege-manager.so.0.3.20
+        b7733000         b7744000 r-xp /usr/lib/libcapi-location-manager.so.0.8.2
+        b7746000         b774d000 r-xp /usr/lib/libcapi-appfw-app-control.so.0.7.6
+        b774f000         b7755000 r-xp /usr/lib/libbundle.so.0.2.3
+        b7757000         b775a000 r-xp /usr/lib/libappcore-agent.so.1.2.10
+        b7772000         b7795000 r-xp /usr/lib/ld-2.24.so
+        bfeeb000         bff0c000 rw-p [stack]
+End of Maps Information
+
+Callstack Information (PID:2873)
+Call Stack Count: 16
+ 0: data_control_sql_step_next + 0x25 (0xb770cca5) [/usr/lib/libdata-control.so.0.3.13] + 0x19ca5
+ 1: sql_select_vault_response_cb + 0xea (0x8007ca2a) [/opt/usr/globalapps/no.safecall.hello/bin/positioningservice] + 0x1a2a
+ 2: (0xb76fd775) [/usr/lib/libdata-control.so.0.3.13] + 0xa775
+ 3: (0xb76fe756) [/usr/lib/libdata-control.so.0.3.13] + 0xb756
+ 4: g_main_context_dispatch + 0x12b (0xb73e7e8b) [/usr/lib/libglib-2.0.so.0.5200.2] + 0x4ae8b
+ 5: (0xb76b42eb) [/usr/lib/libecore.so.1.16.0] + 0x112eb
+ 6: (0xb76b7d11) [/usr/lib/libecore.so.1.16.0] + 0x14d11
+ 7: (0xb76b8c36) [/usr/lib/libecore.so.1.16.0] + 0x15c36
+ 8: ecore_main_loop_begin + 0xc7 (0xb76b8e97) [/usr/lib/libecore.so.1.16.0] + 0x15e97
+ 9: (0xb7758367) [/usr/lib/libappcore-agent.so.1.2.10] + 0x1367
+10: appcore_base_init + 0x218 (0xb7396c88) [/usr/lib/libappcore-common.so.1.10.4] + 0x5c88
+11: service_app_main_ext + 0x108 (0xb7758968) [/usr/lib/libappcore-agent.so.1.2.10] + 0x1968
+12: service_app_main + 0x5d (0xb7758acd) [/usr/lib/libappcore-agent.so.1.2.10] + 0x1acd
+13: main + 0x1ec (0x8007ec6c) [/opt/usr/globalapps/no.safecall.hello/bin/positioningservice] + 0x3c6c
+14: __libc_start_main + 0x108 (0xb750e188) [/usr/lib/libc-2.24.so] + 0x18188
+15: _start + 0x31 (0x8007c351) [/opt/usr/globalapps/no.safecall.hello/bin/positioningservice] + 0x1351
+End of Call Stack

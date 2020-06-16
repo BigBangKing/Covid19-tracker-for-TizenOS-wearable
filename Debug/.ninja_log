@@ -1,0 +1,12 @@
+# ninja log v5
+0	325	0	src/vaultservice.o	2d5c0ce9dd2139e6
+327	549	0	vaultservice	214e62f2cc984719
+2	361	0	src/vaultservice.o	2d5c0ce9dd2139e6
+361	606	0	vaultservice	214e62f2cc984719
+1	16	0	clean_cov	b3de405e02eb7ca8
+16	41	0	clean_sa	46ab9549445ac981
+41	53	0	clean	d59b6dac04fa9b5d
+2	442	0	src/vaultservice.o	2d5c0ce9dd2139e6
+442	692	0	vaultservice	214e62f2cc984719
+1	291	0	src/vaultservice.o	2d5c0ce9dd2139e6
+291	506	0	vaultservice	214e62f2cc984719

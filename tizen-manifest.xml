@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="no.safecall.vaultservice" version="1.0.0">
+    <profile name="wearable"/>
+    <service-application appid="no.safecall.vaultservice" exec="vaultservice" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>vaultservice</label>
+        <icon>vaultservice.png</icon>
+        <datacontrol access="ReadWrite" providerid="http://vaultservice.com/datacontrol/provider/vaultservice" trusted="true" type="Sql"/>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/datasharing</privilege>
+    </privileges>
+</manifest>

@@ -1,0 +1,125 @@
+Executable File Path: /opt/usr/globalapps/no.safecall.hello/bin/backgrounduploaderservice
+Signal: 11
+      (SIGSEGV)
+
+Register Information
+gs  = 0x00000033, fs  = 0x00000000
+es  = 0x0000007b, ds  = 0x0000007b
+edi = 0x80d299c8, esi = 0x00000000
+ebp = 0xbff78538, esp = 0xbff784f0
+eax = 0x00000003, ebx = 0xb76f5000
+ecx = 0xb75ed760, edx = 0x00000003
+eip = 0xb76ee868
+
+Memory information
+MemTotal:   507848 KB
+MemFree:	    91588 KB
+Buffers:	    38024 KB
+Cached:	    213188 KB
+VmPeak:	    104736 KB
+VmSize:	    103680 KB
+VmLck:	          0 KB
+VmPin:	          0 KB
+VmHWM:	      15120 KB
+VmRSS:	      15120 KB
+VmData:	     56104 KB
+VmStk:	        136 KB
+VmExe:	         16 KB
+VmLib:	      44548 KB
+VmPTE:	         68 KB
+VmSwap:	         0 KB
+
+Threads Information
+Threads: 3
+PID = 8773 TID = 8773
+8773 8774 8775 
+
+Maps Information
+        80059000         8005d000 r-xp /opt/usr/globalapps/no.safecall.hello/bin/backgrounduploaderservice
+        80c03000         80d73000 rw-p [heap]
+        b4aaa000         b4aae000 r-xp /usr/lib/libcap.so.2.24
+        b4ab0000         b4ab4000 r-xp /usr/lib/libuuid.so.1.3.0
+        b4ab8000         b4b53000 r-xp /usr/lib/libsystemd.so.0.16.0
+        b4b57000         b4ba0000 r-xp /usr/lib/libblkid.so.1.1.0
+        b4ba6000         b4bad000 r-xp /usr/lib/libsmack.so.1.3.1
+        b4baf000         b4bc3000 r-xp /usr/lib/libsensord-shared.so
+        b4bc5000         b4c21000 r-xp /usr/lib/libmount.so.1.1.0
+        b4c27000         b4c50000 r-xp /usr/lib/liblzma.so.5.2.2
+        b4c52000         b4c65000 r-xp /usr/lib/libresolv-2.24.so
+        b4c6a000         b4c6d000 r-xp /usr/lib/libgmodule-2.0.so.0.5200.2
+        b4c6f000         b4c7d000 r-xp /usr/lib/libbuxton2.so.1.3.7
+        b4c7f000         b4c84000 r-xp /usr/lib/libgdbm.so.3.0.0
+        b4c88000         b4cfc000 r-xp /usr/lib/libcynara-commons.so.0.14.22
+        b4d00000         b4d0a000 r-xp /usr/lib/libcynara-client-commons.so.0.14.22
+        b4d0c000         b4d18000 r-xp /usr/lib/libminizip.so.1.0.0
+        b4d1a000         b4d1d000 r-xp /usr/lib/libSLP-db-util.so.0.1.0
+        b4d1f000         b4d3f000 r-xp /usr/lib/libpkgmgr_parser.so.0.12.16
+        b4d41000         b4eb1000 r-xp /usr/lib/libstdc++.so.6.0.22
+        b4ebb000         b6743000 r-xp /usr/lib/libicudata.so.58.2
+        b6745000         b674b000 r-xp /usr/lib/libffi.so.6.0.2
+        b674e000         b6751000 r-xp /usr/lib/libdl-2.24.so
+        b6753000         b677e000 r-xp /usr/lib/libsensor-genuine.so.4.0.3
+        b6782000         b67f9000 r-xp /usr/lib/libpcre.so.1.2.9
+        b67fb000         b6805000 r-xp /usr/lib/libstorage.so.0.1
+        b6807000         b680a000 r-xp /usr/lib/libttrace.so.1.1
+        b680c000         b696b000 r-xp /usr/lib/libxml2.so.2.9.7
+        b6972000         b6b22000 r-xp /usr/lib/libgio-2.0.so.0.5200.2
+        b6b28000         b6b2c000 r-xp /usr/lib/libiniparser.so.0
+        b6b2e000         b6b34000 r-xp /usr/lib/libvconf.so.0.3.1
+        b6b36000         b6b3b000 r-xp /usr/lib/libcapi-system-info.so.0.2.1
+        b6b3d000         b6b45000 r-xp /usr/lib/libtzplatform-config-2.0.so.2.0.0
+        b6b4c000         b6b55000 r-xp /usr/lib/libxdgmime.so.1.1.0
+        b6b57000         b6bb1000 r-xp /usr/lib/libm-2.24.so
+        b6bb5000         b6bbc000 r-xp /usr/lib/librt-2.24.so
+        b6bbe000         b6c32000 r-xp /usr/lib/libeina.so.1.16.0
+        b6c35000         b6c45000 r-xp /usr/lib/libeo.so.1.16.0
+        b6c48000         b6c5b000 r-xp /usr/lib/libefl.so.1.16.0
+        b6c5e000         b6c77000 r-xp /usr/lib/libgcc_s.so.1
+        b6c79000         b6d78000 r-xp /usr/lib/libsqlite3.so.0.8.6
+        b6d7d000         b6d89000 r-xp /usr/lib/libcynara-client.so.0.14.22
+        b6d8c000         b6db5000 r-xp /usr/lib/libpkgmgr-info.so.0.12.16
+        b6db7000         b6dba000 r-xp /usr/lib/libappsvc.so.0.1.0
+        b6dbc000         b6dd3000 r-xp /usr/lib/libz.so.1.2.11
+        b6dd5000         b6fbc000 r-xp /usr/lib/libcrypto.so.1.0.0
+        b6fd7000         b7041000 r-xp /usr/lib/libssl.so.1.0.0
+        b7048000         b71e6000 r-xp /usr/lib/libicuuc.so.58.2
+        b71f5000         b721a000 r-xp /usr/lib/libnghttp2.so.14.16.1
+        b721d000         b722e000 r-xp /usr/lib/libcares.so.2.2.0
+        b7230000         b7234000 r-xp /usr/lib/libcapi-appfw-app-common.so.0.6.1
+        b7236000         b7288000 r-xp /usr/lib/libgobject-2.0.so.0.5200.2
+        b728a000         b72b1000 r-xp /usr/lib/libjson-glib-1.0.so.0.200.0
+        b72b3000         b72bd000 r-xp /usr/lib/libcapi-base-common.so.0.4.20
+        b72c0000         b72d9000 r-xp /usr/lib/libpthread-2.24.so
+        b72dd000         b72e7000 r-xp /usr/lib/libappcore-common.so.1.10.4
+        b72e9000         b7405000 r-xp /usr/lib/libglib-2.0.so.0.5200.2
+        b7409000         b7442000 r-xp /usr/lib/libaul.so.0.9.4
+        b7444000         b75ea000 r-xp /usr/lib/libc-2.24.so
+        b75f1000         b761c000 r-xp /usr/lib/libecore.so.1.16.0
+        b762d000         b7637000 r-xp /usr/lib/libdlog.so.0.0.0
+        b763f000         b7664000 r-xp /usr/lib/libdata-control.so.0.3.13
+        b7667000         b76e7000 r-xp /usr/lib/libcurl.so.4.4.0
+        b76ea000         b76f4000 r-xp /usr/lib/libcapi-appfw-preference.so.0.5.19
+        b76f6000         b76fd000 r-xp /usr/lib/libcapi-appfw-app-control.so.0.7.6
+        b76ff000         b7705000 r-xp /usr/lib/libbundle.so.0.2.3
+        b7707000         b770a000 r-xp /usr/lib/libappcore-agent.so.1.2.10
+        b7722000         b7745000 r-xp /usr/lib/ld-2.24.so
+        bff5a000         bff7b000 rw-p [stack]
+End of Maps Information
+
+Callstack Information (PID:8773)
+Call Stack Count: 14
+ 0: preference_get_int + 0x78 (0xb76ee868) [/usr/lib/libcapi-appfw-preference.so.0.5.19] + 0x4868
+ 1: failedAttemptsDecrementer + 0x9d (0x8005bc6d) [/opt/usr/globalapps/no.safecall.hello/bin/backgrounduploaderservice] + 0x2c6d
+ 2: networkCall_For_FailedAttempts_cb + 0x3d8 (0x8005aa88) [/opt/usr/globalapps/no.safecall.hello/bin/backgrounduploaderservice] + 0x1a88
+ 3: (0xb7603ec2) [/usr/lib/libecore.so.1.16.0] + 0x12ec2
+ 4: (0xb75fda55) [/usr/lib/libecore.so.1.16.0] + 0xca55
+ 5: (0xb7606a7d) [/usr/lib/libecore.so.1.16.0] + 0x15a7d
+ 6: ecore_main_loop_begin + 0xc7 (0xb7606e97) [/usr/lib/libecore.so.1.16.0] + 0x15e97
+ 7: (0xb7708367) [/usr/lib/libappcore-agent.so.1.2.10] + 0x1367
+ 8: appcore_base_init + 0x218 (0xb72e2c88) [/usr/lib/libappcore-common.so.1.10.4] + 0x5c88
+ 9: service_app_main_ext + 0x108 (0xb7708968) [/usr/lib/libappcore-agent.so.1.2.10] + 0x1968
+10: service_app_main + 0x5d (0xb7708acd) [/usr/lib/libappcore-agent.so.1.2.10] + 0x1acd
+11: main + 0x1ec (0x8005bb3c) [/opt/usr/globalapps/no.safecall.hello/bin/backgrounduploaderservice] + 0x2b3c
+12: __libc_start_main + 0x108 (0xb745c188) [/usr/lib/libc-2.24.so] + 0x18188
+13: _start + 0x31 (0x8005a041) [/opt/usr/globalapps/no.safecall.hello/bin/backgrounduploaderservice] + 0x1041
+End of Call Stack
